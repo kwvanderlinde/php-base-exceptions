@@ -3,7 +3,7 @@
 	"type": "library",
 	"description": "The roots of an exception hierarchy based on contingencies and faults.",
 	"keywords": [ "exception" ],
-	"homepage": "https://github.com/kwvanderlinde/php-rest",
+	"homepage": "https://github.com/kwvanderlinde/php-base-exceptions",
 	"license": "BSD-2-Clause",
 	"authors": [
 		{
