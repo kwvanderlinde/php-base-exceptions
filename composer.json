@@ -1,0 +1,13 @@
+{
+	"name": "php-base/php-base",
+	"description": "Some common utilities for PHP applications.",
+	"license": "BSD-2-Clause",
+	"autoload": {
+		"psr-4": {
+			"Base\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6"
+	}
+}
