@@ -13,6 +13,8 @@ namespace Base\Exceptions;
  * the exception, while the first component is the one with the error in logic.
  * The information attached to a fault should be enough for a human to figure
  * out which component has the error.
+ *
+ * @since 1.0.0
  */
 class LogicError extends Fault {
 }

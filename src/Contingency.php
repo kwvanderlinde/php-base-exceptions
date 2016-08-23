@@ -10,6 +10,8 @@ namespace Base\Exceptions;
  * otherwise be documented as also throwing the contingency. An example use case
  * for contingencies is to provide alternate return paths, though they are
  * certainly not restricted to such usage.
+ *
+ * @since 1.0.0
  */
 abstract class Contingency extends Exception {
 }

@@ -12,6 +12,8 @@ namespace Base\Exceptions;
  *                                        errors.
  * @see \Base\Exceptions\UnexpectedError  A `Fault` specialized for unexpected
  *                                        conditions.
+ *
+ * @since 1.0.0
  */
 abstract class Fault extends Exception {
 }

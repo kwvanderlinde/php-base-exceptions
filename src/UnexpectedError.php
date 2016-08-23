@@ -15,6 +15,8 @@ namespace Base\Exceptions;
  * used instead. However, such conditions should likely not be passed through an
  * API boundary and should instead be converted to an `UnexpectedError` before
  * passing the exception outside the API boundary.
+ *
+ * @since 1.0.0
  */
 class UnexpectedError extends Fault {
 }

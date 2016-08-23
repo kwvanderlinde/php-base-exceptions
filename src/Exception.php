@@ -8,6 +8,8 @@ namespace Base\Exceptions;
  * However, it is provided because we would like some independence from the
  * standard exception root. For instance, we provide a constructor which does
  * not accept exception codes.
+ *
+ * @since 1.0.0
  */
 abstract class Exception extends \Exception {
 	/**
