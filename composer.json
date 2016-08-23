@@ -1,13 +1,23 @@
 {
-	"name": "php-base/php-base",
-	"description": "Some common utilities for PHP applications.",
+	"name": "php-base/exceptions",
+	"type": "library",
+	"description": "The roots of an exception hierarchy based on contingencies and faults.",
+	"keywords": [ "exception" ],
+	"homepage": "https://github.com/kwvanderlinde/php-base-exceptions",
 	"license": "BSD-2-Clause",
-	"autoload": {
-		"psr-4": {
-			"Base\\": "src/"
+	"authors": [
+		{
+			"name": "Kenneth VanderLinde",
+			"email": "kwvanderlinde@gmail.com",
+			"role": "Developer"
 		}
-	},
+	],
 	"require": {
 		"php": ">=5.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Base\\Exceptions\\": "src/"
+		}
 	}
 }
