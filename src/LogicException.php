@@ -1,6 +1,7 @@
 <?php
 namespace Base\Exceptions;
 
+
 /**
  * Represents a programming error.
  *
@@ -14,8 +15,9 @@ namespace Base\Exceptions;
  * The information attached to a fault should be enough for a human to figure
  * out which component has the error.
  *
- * @since 1.0.0
+ * @since 2.0.0
  */
-class LogicError extends Fault {
+class LogicException extends BaseException implements Fault
+{
 }
 ?>
