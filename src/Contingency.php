@@ -1,6 +1,7 @@
 <?php
 namespace Base\Exceptions;
 
+
 /**
  * Represents a contingency.
  *
@@ -11,8 +12,9 @@ namespace Base\Exceptions;
  * for contingencies is to provide alternate return paths, though they are
  * certainly not restricted to such usage.
  *
- * @since 1.0.0
+ * @since 2.0.0
  */
-abstract class Contingency extends Exception {
+interface Contingency extends \Throwable
+{
 }
 ?>
